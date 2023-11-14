@@ -1,5 +1,6 @@
 
 def operation(a,b):
+    #function evaluates the expression using 'eval' 
     op=input("Enter the operator:")
     res=a+op+b
     final_res=eval(res)  #evaluates the expression and gives the result
